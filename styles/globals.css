@@ -1,9 +1,21 @@
+@font-face {
+  font-family: 'oswald';
+  src: url('/font/oswald.regular.ttf');
+}
+
 html,
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: monospace;
+  color: black;
+  background: white;
+  background-image: url('/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
 }
 
 a {
@@ -13,14 +25,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
